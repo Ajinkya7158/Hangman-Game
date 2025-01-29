@@ -11,7 +11,7 @@ def hangman():
     word = choose_word()
     guessed_letters = set()
     incorrect_guesses = 0
-    max_attempts = 10
+    max_attempts = 6
     
     print("Welcome to Hangman!")
     
